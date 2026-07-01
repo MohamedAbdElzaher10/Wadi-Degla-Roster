@@ -1,0 +1,500 @@
+[
+  {
+    "id": 1,
+    "name": "NOHA ELSOLH",
+    "number": 1,
+    "position": [
+      "RW",
+      "ST"
+    ],
+    "birth": "18/10/2000",
+    "weight": 64.0,
+    "height": 170.0,
+    "goals": 33.0,
+    "assists": 10.0,
+    "minutes": 2284.0,
+    "appearances": 30.0,
+    "yellow": 0.0,
+    "red": 0.0,
+    "percentage": "100%",
+    "image": ""
+  },
+  {
+    "id": 2,
+    "name": "GIHAN ELSOLH",
+    "number": 2,
+    "position": [
+      "RW",
+      "ST"
+    ],
+    "birth": "18/10/2000",
+    "weight": 60.0,
+    "height": 168.0,
+    "goals": 21.0,
+    "assists": 14.0,
+    "minutes": 2404.0,
+    "appearances": 29.0,
+    "yellow": 0.0,
+    "red": 0.0,
+    "percentage": "97%",
+    "image": ""
+  },
+  {
+    "id": 3,
+    "name": "ADAIRA YUUKO",
+    "number": 3,
+    "position": [
+      "LB"
+    ],
+    "birth": "22/9/2003",
+    "weight": 61.0,
+    "height": 160.0,
+    "goals": 7.0,
+    "assists": 18.0,
+    "minutes": 2461.0,
+    "appearances": 28.0,
+    "yellow": 2.0,
+    "red": 0.0,
+    "percentage": "93%",
+    "image": ""
+  },
+  {
+    "id": 4,
+    "name": "GLADYS AMFOBEA",
+    "number": 4,
+    "position": [
+      "RW",
+      "ST"
+    ],
+    "birth": "07/01/1998",
+    "weight": 55.0,
+    "height": 164.0,
+    "goals": 25.0,
+    "assists": 17.0,
+    "minutes": 2303.0,
+    "appearances": 27.0,
+    "yellow": 1.0,
+    "red": 0.0,
+    "percentage": "90%",
+    "image": ""
+  },
+  {
+    "id": 5,
+    "name": "MENA EZZAT",
+    "number": 5,
+    "position": [
+      "AM"
+    ],
+    "birth": "13/7/2006",
+    "weight": 50.0,
+    "height": 148.0,
+    "goals": 8.0,
+    "assists": 8.0,
+    "minutes": 2071.0,
+    "appearances": 26.0,
+    "yellow": 1.0,
+    "red": 1.0,
+    "percentage": "87%",
+    "image": ""
+  },
+  {
+    "id": 6,
+    "name": "MARWA TAWFIK",
+    "number": 6,
+    "position": [
+      "CM"
+    ],
+    "birth": "07/03/1998",
+    "weight": 63.0,
+    "height": 171.0,
+    "goals": 3.0,
+    "assists": 0.0,
+    "minutes": 1761.0,
+    "appearances": 26.0,
+    "yellow": 1.0,
+    "red": 0.0,
+    "percentage": "87%",
+    "image": "/images/6.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "NOUR NEHAD",
+    "number": 7,
+    "position": [
+      "CM"
+    ],
+    "birth": "01/05/2005",
+    "weight": 54.0,
+    "height": 157.0,
+    "goals": 1.0,
+    "assists": 3.0,
+    "minutes": 1497.0,
+    "appearances": 26.0,
+    "yellow": 2.0,
+    "red": 0.0,
+    "percentage": "87%",
+    "image": ""
+  },
+  {
+    "id": 8,
+    "name": "HAPPINESS MONDAY",
+    "number": 8,
+    "position": [
+      "CB"
+    ],
+    "birth": "13/4/2000",
+    "weight": 66.0,
+    "height": 173.0,
+    "goals": 1.0,
+    "assists": 3.0,
+    "minutes": 2209.0,
+    "appearances": 25.0,
+    "yellow": 4.0,
+    "red": 0.0,
+    "percentage": "83%",
+    "image": ""
+  },
+  {
+    "id": 9,
+    "name": "GANA AHMED",
+    "number": 9,
+    "position": [
+      "CB"
+    ],
+    "birth": "20/2/2007",
+    "weight": 53.0,
+    "height": 163.0,
+    "goals": 0.0,
+    "assists": 1.0,
+    "minutes": 1544.0,
+    "appearances": 24.0,
+    "yellow": 3.0,
+    "red": 0.0,
+    "percentage": "80%",
+    "image": ""
+  },
+  {
+    "id": 10,
+    "name": "HANNEN ZAKI",
+    "number": 10,
+    "position": [
+      "RB"
+    ],
+    "birth": "14/8/2008",
+    "weight": 56.0,
+    "height": 162.0,
+    "goals": 2.0,
+    "assists": 13.0,
+    "minutes": 839.0,
+    "appearances": 24.0,
+    "yellow": 0.0,
+    "red": 0.0,
+    "percentage": "80%",
+    "image": ""
+  },
+  {
+    "id": 11,
+    "name": "SARAH MONUIR",
+    "number": 11,
+    "position": [
+      "CM"
+    ],
+    "birth": "06/10/2009",
+    "weight": 53.0,
+    "height": 161.0,
+    "goals": 2.0,
+    "assists": 0.0,
+    "minutes": 934.0,
+    "appearances": 23.0,
+    "yellow": 0.0,
+    "red": 0.0,
+    "percentage": "77%",
+    "image": ""
+  },
+  {
+    "id": 12,
+    "name": "BASSANT ABDELAZIZ",
+    "number": 12,
+    "position": [
+      "CB"
+    ],
+    "birth": "24/9/1998",
+    "weight": 65.0,
+    "height": 159.0,
+    "goals": 1.0,
+    "assists": 0.0,
+    "minutes": 1231.0,
+    "appearances": 22.0,
+    "yellow": 0.0,
+    "red": 0.0,
+    "percentage": "73%",
+    "image": ""
+  },
+  {
+    "id": 13,
+    "name": "FARAH SAMIR",
+    "number": 13,
+    "position": [
+      "GK"
+    ],
+    "birth": "07/02/2001",
+    "weight": 79.0,
+    "height": 174.0,
+    "goals": 0.0,
+    "assists": 0.0,
+    "minutes": 1701.0,
+    "appearances": 20.0,
+    "yellow": 0.0,
+    "red": 1.0,
+    "percentage": "67%",
+    "image": ""
+  },
+  {
+    "id": 14,
+    "name": "JOY EMAD",
+    "number": 14,
+    "position": [
+      "AM"
+    ],
+    "birth": "16/10/2004",
+    "weight": 61.0,
+    "height": 163.0,
+    "goals": 7.0,
+    "assists": 10.0,
+    "minutes": 1126.0,
+    "appearances": 20.0,
+    "yellow": 0.0,
+    "red": 0.0,
+    "percentage": "67%",
+    "image": ""
+  },
+  {
+    "id": 15,
+    "name": "AMIRA TERIKA",
+    "number": 15,
+    "position": [
+      "ST"
+    ],
+    "birth": "15/7/1995",
+    "weight": 59.0,
+    "height": 167.0,
+    "goals": 9.0,
+    "assists": 2.0,
+    "minutes": 641.0,
+    "appearances": 18.0,
+    "yellow": 1.0,
+    "red": 0.0,
+    "percentage": "60%",
+    "image": ""
+  },
+  {
+    "id": 16,
+    "name": "ALYA EZZ",
+    "number": 16,
+    "position": [
+      "AM"
+    ],
+    "birth": "01/08/2009",
+    "weight": 51.0,
+    "height": 153.0,
+    "goals": 3.0,
+    "assists": 1.0,
+    "minutes": 424.0,
+    "appearances": 16.0,
+    "yellow": 0.0,
+    "red": 0.0,
+    "percentage": "53%",
+    "image": ""
+  },
+  {
+    "id": 17,
+    "name": "MANAR ELSAYED",
+    "number": 17,
+    "position": [
+      "ST"
+    ],
+    "birth": "30/3/2002",
+    "weight": 60.0,
+    "height": 166.0,
+    "goals": 12.0,
+    "assists": 6.0,
+    "minutes": 892.0,
+    "appearances": 13.0,
+    "yellow": 3.0,
+    "red": 0.0,
+    "percentage": "43%",
+    "image": ""
+  },
+  {
+    "id": 18,
+    "name": "WEDAD HOSNY",
+    "number": 18,
+    "position": [
+      "GK"
+    ],
+    "birth": "01/12/1987",
+    "weight": 83.0,
+    "height": 172.0,
+    "goals": 0.0,
+    "assists": 0.0,
+    "minutes": 912.0,
+    "appearances": 12.0,
+    "yellow": 1.0,
+    "red": 0.0,
+    "percentage": "40%",
+    "image": ""
+  },
+  {
+    "id": 19,
+    "name": "MALAK AMR",
+    "number": 19,
+    "position": [
+      "CB"
+    ],
+    "birth": "15/12/2006",
+    "weight": 64.0,
+    "height": 175.0,
+    "goals": 1.0,
+    "assists": 0.0,
+    "minutes": 495.0,
+    "appearances": 12.0,
+    "yellow": 1.0,
+    "red": 0.0,
+    "percentage": "40%",
+    "image": ""
+  },
+  {
+    "id": 20,
+    "name": "HANA MEDHAT",
+    "number": 20,
+    "position": [
+      "CB"
+    ],
+    "birth": "04/10/2010",
+    "weight": 59.0,
+    "height": 161.0,
+    "goals": 0.0,
+    "assists": 0.0,
+    "minutes": 419.0,
+    "appearances": 10.0,
+    "yellow": 0.0,
+    "red": 0.0,
+    "percentage": "33%",
+    "image": ""
+  },
+  {
+    "id": 21,
+    "name": "HABIBA ASHRAF",
+    "number": 21,
+    "position": [
+      "CM"
+    ],
+    "birth": "02/10/2006",
+    "weight": 57.0,
+    "height": 165.0,
+    "goals": 1.0,
+    "assists": 1.0,
+    "minutes": 408.0,
+    "appearances": 10.0,
+    "yellow": 1.0,
+    "red": 0.0,
+    "percentage": "33%",
+    "image": ""
+  },
+  {
+    "id": 22,
+    "name": "SALMA KARAM",
+    "number": 22,
+    "position": [
+      "CM"
+    ],
+    "birth": "08/03/2007",
+    "weight": 60.0,
+    "height": 168.0,
+    "goals": 1.0,
+    "assists": 1.0,
+    "minutes": 297.0,
+    "appearances": 8.0,
+    "yellow": 0.0,
+    "red": 0.0,
+    "percentage": "27%",
+    "image": ""
+  },
+  {
+    "id": 23,
+    "name": "SHEROK SAYED",
+    "number": 23,
+    "position": [
+      "CM"
+    ],
+    "birth": "26/1/1999",
+    "weight": 58.0,
+    "height": 162.0,
+    "goals": 0.0,
+    "assists": 1.0,
+    "minutes": 330.0,
+    "appearances": 5.0,
+    "yellow": 0.0,
+    "red": 0.0,
+    "percentage": "17%",
+    "image": ""
+  },
+  {
+    "id": 24,
+    "name": "NADIA RAMADAN",
+    "number": 24,
+    "position": [
+      "CM"
+    ],
+    "birth": "21/01/2005",
+    "weight": 75.0,
+    "height": 169.0,
+    "goals": 1.0,
+    "assists": 1.0,
+    "minutes": 225.0,
+    "appearances": 3.0,
+    "yellow": 0.0,
+    "red": 0.0,
+    "percentage": "10%",
+    "image": ""
+  },
+  {
+    "id": 25,
+    "name": "LILY AMR",
+    "number": 25,
+    "position": [
+      "RW",
+      "ST"
+    ],
+    "birth": "10/02/2011",
+    "weight": 55.0,
+    "height": 155.0,
+    "goals": 0.0,
+    "assists": 1.0,
+    "minutes": 122.0,
+    "appearances": 3.0,
+    "yellow": 0.0,
+    "red": 0.0,
+    "percentage": "10%",
+    "image": ""
+  },
+  {
+    "id": 26,
+    "name": "TOQA SABRY",
+    "number": 26,
+    "position": [
+      "GK"
+    ],
+    "birth": "15/1/2003",
+    "weight": 65.0,
+    "height": 168.0,
+    "goals": 0.0,
+    "assists": 0.0,
+    "minutes": 90.0,
+    "appearances": 2.0,
+    "yellow": 0.0,
+    "red": 0.0,
+    "percentage": "7%",
+    "image": ""
+  }
+]

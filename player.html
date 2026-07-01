@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Player Profile | Wadi Degla SC</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="player.css">
+
+</head>
+
+<body>
+
+<header class="topbar">
+
+<a href="index.html" class="back-btn">
+
+← Back to Squad
+
+</a>
+
+<img src="assets/logo.png" class="logo">
+
+</header>
+
+<main class="profile">
+
+<div class="left">
+
+<div class="photo-box">
+
+<div id="player-photo"></div>
+
+</div>
+
+<div class="basic-card">
+
+<h1 id="player-name"></h1>
+
+<p id="player-position"></p>
+
+</div>
+
+</div>
+
+<div class="right">
+
+<div class="stats-grid">
+
+<div class="stat">
+
+<h3>Age</h3>
+
+<p id="age"></p>
+
+</div>
+
+<div class="stat">
+
+<h3>Height</h3>
+
+<p id="height"></p>
+
+</div>
+
+<div class="stat">
+
+<h3>Weight</h3>
+
+<p id="weight"></p>
+
+</div>
+
+<div class="stat">
+
+<h3>Appearances</h3>
+
+<p id="appearances"></p>
+
+</div>
+
+<div class="stat">
+
+<h3>Goals</h3>
+
+<p id="goals"></p>
+
+</div>
+
+<div class="stat">
+
+<h3>Assists</h3>
+
+<p id="assists"></p>
+
+</div>
+
+<div class="stat">
+
+<h3>Minutes</h3>
+
+<p id="minutes"></p>
+
+</div>
+
+<div class="stat">
+
+<h3>Participation</h3>
+
+<p id="percentage"></p>
+
+</div>
+
+</div>
+
+<div class="report">
+
+<h2>Scout Report</h2>
+
+<textarea id="report" placeholder="Write your scouting report here..."></textarea>
+
+<button onclick="window.print()">
+
+Print Report
+
+</button>
+
+</div>
+
+</div>
+
+</main>
+
+<script src="player.js"></script>
+
+</body>
+
+</html>

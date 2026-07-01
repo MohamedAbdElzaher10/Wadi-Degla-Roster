@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Wadi Degla SC | Women's First Team</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header class="header">
+
+    <div class="header-overlay"></div>
+
+    <div class="header-content">
+
+        <div class="club">
+
+            <img src="assets/logo.png" alt="Wadi Degla Logo" class="club-logo">
+
+            <div>
+
+                <h1>WADI DEGLA SC</h1>
+
+                <p>Women's First Team</p>
+
+            </div>
+
+        </div>
+
+        <div class="season">
+
+            Season 2025 / 2026
+
+        </div>
+
+    </div>
+
+</header>
+
+<!-- ================= DASHBOARD ================= -->
+
+<section class="dashboard">
+
+    <div class="stat-card">
+
+        <span>Players</span>
+
+        <h2 id="players-count">0</h2>
+
+    </div>
+
+    <div class="stat-card">
+
+        <span>Goals</span>
+
+        <h2 id="total-goals">0</h2>
+
+    </div>
+
+    <div class="stat-card">
+
+        <span>Assists</span>
+
+        <h2 id="total-assists">0</h2>
+
+    </div>
+
+    <div class="stat-card">
+
+        <span>Average Age</span>
+
+        <h2 id="avg-age">0</h2>
+
+    </div>
+
+    <div class="stat-card">
+
+        <span>Average Height</span>
+
+        <h2 id="avg-height">0</h2>
+
+    </div>
+
+    <div class="stat-card">
+
+        <span>Average Weight</span>
+
+        <h2 id="avg-weight">0</h2>
+
+    </div>
+
+</section>
+
+<!-- ================= FILTERS ================= -->
+
+<section class="controls">
+
+    <input
+
+        id="search"
+
+        type="text"
+
+        placeholder="Search player..."
+
+    >
+
+    <select id="positionFilter">
+
+        <option value="All">All Positions</option>
+
+        <option value="GK">Goalkeeper</option>
+
+        <option value="RB">Right Back</option>
+
+        <option value="LB">Left Back</option>
+
+        <option value="CB">Centre Back</option>
+
+        <option value="CDM">Defensive Midfielder</option>
+
+        <option value="CM">Central Midfielder</option>
+
+        <option value="AM">Attacking Midfielder</option>
+
+        <option value="RW">Right Winger</option>
+
+        <option value="LW">Left Winger</option>
+
+        <option value="ST">Striker</option>
+
+    </select>
+
+    <select id="sortFilter">
+
+        <option value="name">Sort by Name</option>
+
+        <option value="goals">Goals</option>
+
+        <option value="assists">Assists</option>
+
+        <option value="minutes">Minutes</option>
+
+        <option value="height">Height</option>
+
+        <option value="weight">Weight</option>
+
+    </select>
+
+</section>
+
+<!-- ================= PLAYERS ================= -->
+
+<main>
+
+    <section id="players-container">
+
+        <!-- سيتم إنشاء جميع الكروت تلقائياً -->
+
+    </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <p>
+
+        © 2026 Wadi Degla SC
+
+    </p>
+
+    <p>
+
+        Player Scouting Platform
+
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
