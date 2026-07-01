@@ -151,103 +151,94 @@ function normalizeImagePath(path){
 
 function playerCard(player){
 
-const img=
+    const img = player.image && player.image !== "" ?
+        `<img src="${normalizeImagePath(player.image)}" alt="${player.name}">`
+        :
+        `<div class="player-avatar">
+            ${avatar(player.name)}
+        </div>`;
 
-player.image&&player.image!==""
+    return `
 
-?
+    <div class="player-card">
 
-`<img src="${player.image}">`
+        <div class="player-image">
 
-:
+            ${img}
 
-`<div class="player-avatar">
+        </div>
 
-${avatar(player.name)}
+        <div class="player-info">
 
-</div>`;
+            <div class="player-number">
 
-return`
+                #${player.id}
 
-<div class="player-card">
+            </div>
 
-<div class="player-image">
+            <h2 class="player-name">
 
-${img}
+                ${player.name}
 
-</div>
+            </h2>
 
-<div class="player-info">
+            <div class="player-position">
 
-<div class="player-number">
+                ${player.position.join(" • ")}
 
-#${player.id}
+            </div>
 
-</div>
+            <div class="player-details">
 
-<h2 class="player-name">
+                <div class="detail">
 
-${player.name}
+                    <h4>Height</h4>
 
-</h2>
+                    <p>${player.height} cm</p>
 
-<div class="player-position">
+                </div>
 
-${player.position.join(" • ")}
+                <div class="detail">
 
-</div>
+                    <h4>Weight</h4>
 
-<div class="player-details">
+                    <p>${player.weight} kg</p>
 
-<div class="detail">
+                </div>
 
-<h4>Height</h4>
+                <div class="detail">
 
-<p>${player.height} cm</p>
+                    <h4>Goals</h4>
 
-</div>
+                    <p>${player.goals}</p>
 
-<div class="detail">
+                </div>
 
-<h4>Weight</h4>
+                <div class="detail">
 
-<p>${player.weight} kg</p>
+                    <h4>Assists</h4>
 
-</div>
+                    <p>${player.assists}</p>
 
-<div class="detail">
+                </div>
 
-<h4>Goals</h4>
+            </div>
 
-<p>${player.goals}</p>
+            <button
 
-</div>
+                class="profile-btn"
 
-<div class="detail">
+                onclick="openPlayer(${player.id})">
 
-<h4>Assists</h4>
+                Scout Report →
 
-<p>${player.assists}</p>
+            </button>
 
-</div>
+        </div>
 
-</div>
+    </div>
 
-<button
-
-class="profile-btn"
-
-onclick="openPlayer(${player.id})">
-
-Scout Report →
-
-</button>
-
-</div>
-
-</div>
-
-`;
+    `;
 
 }
 // =========================
@@ -256,20 +247,15 @@ Scout Report →
 
 function renderPlayers(data){
 
-if(data.length===0){
-    player.image && player.image !== "" ?
-        `<img src="${normalizeImagePath(player.image)}" alt="${player.name}">`
-        :
-        `<div class="player-avatar">
-            ${avatar(player.name)}
-        </div>`;
-</div>`;
+    if(data.length===0){
+        container.innerHTML =
+            `<div class="no-results">
+                No Players Found
+            </div>`;
+        return;
+    }
 
-return;
-
-}
-
-container.innerHTML=data.map(playerCard).join("");
+    container.innerHTML = data.map(playerCard).join("");
 
 }
 
