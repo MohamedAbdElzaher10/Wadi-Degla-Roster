@@ -112,7 +112,7 @@ function renderPlayer(player){
     if(player.image && player.image!==""){
 
         photo.innerHTML=`
-            <img src="${player.image}" alt="${player.name}">
+            <img src="${normalizeImagePath(player.image)}" alt="${player.name}">
         `;
 
     }else{
@@ -152,6 +152,12 @@ function renderPlayer(player){
     document.getElementById("percentage").textContent=
     player.percentage;
 
+}
+
+function normalizeImagePath(path){
+    if(!path) return path;
+    if(path.startsWith('http') || path.startsWith('./')) return path;
+    return './' + path.replace(/^\//, '');
 }
 
 

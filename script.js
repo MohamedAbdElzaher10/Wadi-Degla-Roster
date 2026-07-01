@@ -138,6 +138,13 @@ return name.charAt(0).toUpperCase();
 
 }
 
+// normalize local image paths to ensure they resolve under GitHub Pages
+function normalizeImagePath(path){
+    if(!path) return path;
+    if(path.startsWith('http') || path.startsWith('./')) return path;
+    return './' + path.replace(/^\//, '');
+}
+
 // =========================
 // Card
 // =========================
@@ -250,13 +257,12 @@ Scout Report →
 function renderPlayers(data){
 
 if(data.length===0){
-
-container.innerHTML=
-
-`<div class="no-results">
-
-No Players Found
-
+    player.image && player.image !== "" ?
+        `<img src="${normalizeImagePath(player.image)}" alt="${player.name}">`
+        :
+        `<div class="player-avatar">
+            ${avatar(player.name)}
+        </div>`;
 </div>`;
 
 return;
